@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "salesforce"
+version = "0.1.0"
+description = ""
+authors = ["Frits <frits.vanturnhout@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.4"
+httpx = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
